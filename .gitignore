@@ -1,0 +1,14 @@
+# Keep `.env` and `.venv/` on disk to run the app; list them here so secrets/venvs are not committed.
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+logs/
+results/
+.pytest_cache/
+.coverage
+htmlcov/
